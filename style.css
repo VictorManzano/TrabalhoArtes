@@ -103,6 +103,10 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .corFundo {
@@ -127,6 +131,10 @@ header nav ul li a:hover {
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid white;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .corFundo2 {
@@ -151,6 +159,10 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .corFundo3 {
@@ -175,6 +187,10 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .corFundo4 {
@@ -198,6 +214,10 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .corFundo5 {
@@ -221,6 +241,10 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .capa6 h1 {
