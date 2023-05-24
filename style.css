@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #000000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: rgb(185, 185, 185);
+}
+
+
+.main1 {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#borda {
+    border-top: 1px solid white;
+}
+
+.titulo {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1 {
+    font-size: 40px;
+}
+
+.textoImagem {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.imagem {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.capa {
+    height: 400px;
+    width: 100%;
+    border-top: 1px solid white;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.671)
+    ),
+    url(Festas_juninas_em_Portugal\ \(1\).jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corFundo {
+  background: #000;
+  width: 100%;
+  height: 400px;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 99;
+}
+
+.capa2 {
+    height: 400px;
+    width: 100%;
+    border-top: 1px solid white;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.671)
+    ),
+    url(portugal-libera-turistas-brasileiros-veja-regras.webp) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.corFundo2 {
+  background: #000;
+  width: 100%;
+  height: 400px;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 99;
+}
+
+
+.capa3 {
+    height: 400px;
+    width: 100%;
+    border-top: 1px solid white;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.671)
+    ),
+    url(comidas-de-portugal-scaled-1.webp) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corFundo3 {
+  background: #000;
+  width: 100%;
+  height: 400px;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 99;
+}
+
+
+.capa4 {
+    height: 400px;
+    width: 100%;
+    border-top: 1px solid white;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.671)
+    ),
+    url(capa.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corFundo4 {
+  background: #000;
+  width: 100%;
+  height: 400px;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 99;
+}
+
+.capa5 {
+    height: 400px;
+    width: 100%;
+    border-top: 1px solid white;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.671)
+    ),
+    url(cristiano_ronaldo_portugal.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corFundo5 {
+  background: #000;
+  width: 100%;
+  height: 400px;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 99;
+}
+
+.capa6 {
+    height: 400px;
+    width: 100%;
+    border-top: 1px solid white;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.671)
+    ),
+    url(portugal-libera-turistas-brasileiros-veja-regras.webp) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.capa6 h1 {
+    letter-spacing: 10px;
+}
+
+.corFundo6 {
+  background: #000;
+  width: 100%;
+  height: 400px;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 99;
+}
+
+.video {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+
+iframe {
+    width: 420px;
+    height: 315px;
+}
+
+.video2 {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+}
